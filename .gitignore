@@ -1,0 +1,25 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyi
+*.pycachefile
+
+# Streamlit
+.stfolder/
+.cache/
+.history/
+.libs/
+config.toml
+
+# MongoDB
+# Adjust the path based on your MongoDB setup
+/db/mongodb
+
+# MySQL
+# Adjust the path based on your MySQL setup
+/db/mysql
+
+# Other files
+.DS_Store
