@@ -47,8 +47,6 @@ mysql_conn = pymysql.connect(
 mysql_cursor = mysql_conn.cursor()
 ```
 
-Replace `<host>`, `<user>`, `<password>`, and `<database>` with your MySQL database credentials.
-
 ## Retrieving Channel Data
 
 The code retrieves channel data from the YouTube Data API by calling the `get_channel_data` function. It takes a YouTube channel ID as input and retrieves information such as the channel name, subscriber count, total videos, playlist ID, and video data. The channel data is then stored in MongoDB using the `insert_one` method.
